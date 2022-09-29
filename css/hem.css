@@ -1,7 +1,7 @@
-body {
+/*body {
 	background: url(../img/12_col.gif) center top repeat-y;
 	background-size: 90%;
-}
+}*/
 section{
     font-family: cinzel;
     color: whitesmoke;
@@ -45,8 +45,8 @@ section{
 
 
 
-main,.slider,
-footer{
+main,.section
+{
 
 	border: 2px solid black;
 	min-height: 10px;
@@ -116,6 +116,11 @@ main{
     
 }
 footer{
+        border-top: 1px solid black;
+        padding-left: 20px;
+        padding-top: 20px;
+        
+
     
         height: 150px;
         grid-column-start: 1;
