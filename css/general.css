@@ -58,7 +58,11 @@ header {
     grid-row-end: 2;
 }
 
+<<<<<<< HEAD
+nav {
+=======
 nav{
+>>>>>>> 08430da5bcb389b98a2cb7e4a96e6683ce318cdb
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +73,11 @@ nav{
     grid-row-start: 2;
     grid-row-end: 3;
 }
+<<<<<<< HEAD
+header,nav{
+=======
 header,nav,footer{
+>>>>>>> 08430da5bcb389b98a2cb7e4a96e6683ce318cdb
     font-family: cinzel;
 }
 footer{
