@@ -1,1 +1,14 @@
+body {
+    background: url(../img/12_col.gif) center top repeat-y;
+    background-size: 90%;
+    font-family: 'cinzel';
+}
+
+.container{
+    width: 89%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+}
+
 
