@@ -31,6 +31,7 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 li a:hover:not(.active) {
@@ -49,6 +50,7 @@ header {
 
     font-size: 50px;
     border-bottom: 2px solid rgb(0, 0, 0);
+    
 
 
     margin: 0px;
@@ -76,7 +78,11 @@ footer{
     border-top: 1px solid black;
         padding-left: 20px;
         padding-top: 20px;
-        
+        height: 150px;
+        grid-column-start: 1;
+        grid-column-end: 13;
+        grid-row-start: 13;
+        grid-row-end: 14;
 }
 .fa {
     padding: 20px;
@@ -115,7 +121,7 @@ footer{
     background: #171717;
     color: white;
     border-radius: 10px;
-    
+   
     
 
   }

@@ -1,51 +1,5 @@
-/*body {
-	background: url(../img/12_col.gif) center top repeat-y;
-	background-size: 90%;
-}*/
-section{
-    font-family: cinzel;
-    color: whitesmoke;
-    align-items: start;
-    justify-content: flex-start;
-    padding: 30px;
-    border-radius: 10px;
-}
-#bild1{
-    
-    background-image: url(../img/badrumbox1.jpg);
-        background-size: cover;
-        padding: 30px;
-        transition: all 1s;
 
-}
-#bild2{
-   
-
-    background-image: url(../img/körförbox2.jpg);
-    background-size: cover;
-    padding: 30px;
-    transition: all 1s;
-
-
-}
-#bild3{
-
-    background-image: url(../img/vardagsrumbox3.jpg);
-         background-size: cover;
-         padding: 30px;
-         transition: all 1s;
-
-}
-#bild1 #bild2 #bild3:hover{
-
-    transform: scale(1,5);
-
-}
-
-
-
-
-main,.section
+#main,#container2,#container3,#container4
 {
 
 	border: 2px solid black;
@@ -53,10 +7,10 @@ main,.section
 
 }
 
-main{
+ #main{ 
     border-radius: 10px;
     height: 400px;
-    background-image: url(../img/Bildförslide1.jpg);
+    
     background-size: cover;
     
     justify-content: center;
@@ -70,60 +24,116 @@ main{
         grid-row-end: 6;
     
 }
-#bild1{
+#container2{
+        
+        height: 250px;
         grid-column-start: 1;
         grid-column-end: 5;
         grid-row-start: 9;
-        grid-row-end: 11;
-        height: 300px;
-        
-
+        grid-row-end: 10;
         display: flex;
-        align-items: flex-start;
         justify-content: center;
-    
-        
-    
+        align-items: center;
+       
+           
 }
-#bild2{
-    
-
+#container3{
+        
+        height: 250px;
         grid-column-start: 5;
         grid-column-end: 9;
         grid-row-start: 9;
-        grid-row-end: 11;
-
+        grid-row-end: 10;
         display: flex;
-        align-items: flex-start;
         justify-content: center;
-    
+        align-items: center;
+
        
+        
+}
+#container4{
+        
+        height: 250px;
+         grid-column-start: 9;
+        grid-column-end: 13;
+        grid-row-start: 9;
+        grid-row-end: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+   
+}
+
+
+
+#bild1{
+   
+    width: 90%;
+    height: 90%;
+    background-color: black; /* fallback color */
+    background-image: url("../img/badrumbox1.jpg");
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+  
+   
+
+}
+#bild2{
+   
+    width: 90%;
+    height: 90%;
+    background-image: url(../img/körförbox2.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     
+
 }
 #bild3{
 
-    
-        grid-column-start: 9;
-        grid-column-end: 13;
-        grid-row-start: 9;
-        grid-row-end: 11;
-
-        display: flex;
-         align-items: flex-start;
-         justify-content: center;
+        width: 90%;
+        height: 90%;
+        background-image: url(../img/vardagsrumbox3.jpg);
+         background-size: cover;
+         transition: 1s;
+         display: flex;
+         align-items: center;
+        justify-content: center;
          
 
-    
 }
-footer{
-        
-        
+#container2:hover #bild1,
+#container3:hover #bild2,
+#container4:hover #bild3,
+#container2:focus #bild1 
+#container3:focus #bild2
+#container4:focus #bild3
+    {
+  transform: scale(1.05);
+}
 
-    
-        height: 150px;
-        grid-column-start: 1;
-        grid-column-end: 13;
-        grid-row-start: 13;
-        grid-row-end: 14;
-    
-}
+  
+  span {
+    color: white; 
+    font-family: sans-serif;
+    padding: 25%;
+    position: absolute;
+  }
+
+  
+  
+
+
+
+
