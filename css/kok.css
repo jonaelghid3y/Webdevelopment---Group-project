@@ -55,8 +55,7 @@ img{
 
 footer{
     grid-column: 2 / 12;
-    min-height: 400px;
-    border: 1px black solid;
+    
     
 }
 
