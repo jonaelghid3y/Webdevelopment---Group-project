@@ -1,6 +1,4 @@
-body{
-    background-color:aliceblue;
-}
+
 #container1 {
 	display: grid;
 	width: 89%;
@@ -74,6 +72,12 @@ nav{
 header,nav,footer{
     font-family: cinzel;
 }
+footer{
+    border-top: 1px solid black;
+        padding-left: 20px;
+        padding-top: 20px;
+        
+}
 .fa {
     padding: 20px;
     font-size: 20px;
@@ -91,7 +95,7 @@ header,nav,footer{
   
   
   .fa-facebook {
-    background: #3B5998;
+    background: #171717;
     color: white;
     
     border-radius: 10px;
@@ -100,7 +104,7 @@ header,nav,footer{
   
   
   .fa-twitter {
-    background: #55ACEE;
+    background: #171717;
     color: white;
     border-radius: 10px;
     margin: 40px;
@@ -108,7 +112,7 @@ header,nav,footer{
 
   }
   .fa-instagram{
-    background: #ed3f4d;
+    background: #171717;
     color: white;
     border-radius: 10px;
     
