@@ -1,16 +1,5 @@
 
 
-/*.container{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr)
-    width: 89%;;
-	margin: 0 auto;
-	/*min-height: 1500px;
-	/*grid-auto-rows: 1fr;
-	column-gap: 2%;
-	row-gap: 20px;
-	height: 40px;*/
-}
 .main-content{
     display: grid;
     grid-template-columns: repeat(12,1fr);
@@ -35,6 +24,7 @@
 .content3{
     display: grid;
     grid-column: 9/13;
+    grid-row: 
     border: 1px solid black;
     min-height: 100px;
 }
