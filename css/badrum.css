@@ -13,4 +13,33 @@ body {
 
 p, img, footer {
     border: 1px solid black;
+    min-height: 100px;
+}
+
+.img-one {
+    grid-column: 1 / 5;
+}
+
+.p-one {
+    grid-column: 6 / 13;
+}
+
+.p-two {
+    grid-column: 1 / 8;
+}
+
+.img-two {
+    grid-column: 9 / 13;
+}
+
+.img-three {
+    grid-column: 1 / 13;
+} 
+
+.p-three {
+    grid-column: 1 / 6;
+}
+
+.p-four {
+    grid-column: 6 / 13;
 }
