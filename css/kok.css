@@ -4,11 +4,11 @@ body {
 
 }
 
-.container{
-    width: 89%;
+/* .box1{
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    
-}
+    grid-column: 2 / 4;
+    min-height: 200px;
+    border: 1px black solid;
+} */
 
 
