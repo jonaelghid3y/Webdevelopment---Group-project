@@ -36,3 +36,8 @@ section {
     grid-column: 7 / 13;
     grid-row: 27 / 35;
 }
+
+footer {
+    grid-column: 1 / 13;
+    grid-row: 35 / 36;
+}
