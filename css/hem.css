@@ -1,5 +1,5 @@
 
-#main,#container2,#container3,#container4
+#main
 {
 
 	border: 2px solid black;
@@ -80,6 +80,7 @@
     align-items: center;
     justify-content: center;
     padding-left: 20px;
+    
   
    
 
@@ -122,15 +123,64 @@
     {
   transform: scale(1.05);
 }
+#bild1::before,#bild2::before,#bild3::before {
+        content: "";
+        display: none;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(100, 102, 103, 0.75);
+        
+      }
+      
+      #container2:hover #bild1:before,
+      #container2:focus #bild1:before {
+        display: block;
+      }
+      #container3:hover #bild2:before,
+      #container3:focus #bild2:before {
+        display: block;
+      }
+      #container4:hover #bild3:before,
+      #container4:focus #bild3:before {
+        display: block;
+      }
 
   
-  span {
-    color: white; 
-    font-family: sans-serif;
-    padding: 25%;
-    position: absolute;
-  }
+.bildlänk{
 
+        background-size: cover;
+        color: white;
+        font-family: "Cinzel";
+        display: none;
+        font-size: x-large;
+        font-weight: bold;
+        position: absolute;
+      
+       
+}
+
+        
+       
+
+#bild1:hover .bildlänk,
+#bild1:focus .bildlänk {
+  display: block;
+}
+#bild2:hover .bildlänk,
+#bild2:focus .bildlänk {
+  display: block;
+}
+#bild3:hover .bildlänk,
+#bild3:focus .bildlänk{
+  display: block;
+}
+footer{
+        grid-row-start: 13;
+        grid-row-end: 14;
+}
   
   
 
