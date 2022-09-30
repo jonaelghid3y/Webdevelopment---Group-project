@@ -151,14 +151,15 @@
   
 .bildlänk{
 
-        background-size: cover;
+        
         color: white;
         font-family: "Cinzel";
         display: none;
         font-size: x-large;
         font-weight: bold;
         position: absolute;
-      
+        display: inline block;
+        
        
 }
 
