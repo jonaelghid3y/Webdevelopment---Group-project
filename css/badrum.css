@@ -1,43 +1,60 @@
 section {
-    border: 1px solid black;
+    border-radius: 10px;
 }
 
-.img-one {
-    grid-column: 1 / 5;
-    grid-row: 3 / 10 ;
-}
-
-.p-one {
-    grid-column: 5 / 13;
-    grid-row: 3 / 10;
-}
-
-.p-two {
-    grid-column: 1 / 8 ;
-    grid-row: 11 / 18;
-}
-
-.img-two {
-    grid-column: 8 / 13;
-    grid-row: 11 / 18;
-}
-
-.img-three {
-    grid-column: 1 / 13;
-    grid-row: 19 / 26;
-}
-
-.p-three {
+#box1 {
     grid-column: 1 / 7;
-    grid-row: 27 / 35;
+    grid-row: 3 / 13;
+    background-image: url(../img/bathroom-one.jpeg);
+    background-size: cover;
 }
 
-.p-four {
+#box2 {
     grid-column: 7 / 13;
-    grid-row: 27 / 35;
+    grid-row: 3 / 13;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#box4 {
+    grid-column: 1 / 8 ;
+    grid-row: 14 / 25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box3 {
+    grid-column: 8 / 13;
+    grid-row: 14 / 25;
+    background-image: url(../img/bathroom-two.jpeg);
+    background-size: cover;
+}
+
+#box5 {
+    grid-column: 1 / 13;
+    grid-row: 26 / 35;
+    background-image: url(../img/bathroom-three.png);
+    background-size: cover;
+}
+
+#box6 {
+    grid-column: 1 / 7;
+    grid-row: 36 / 43;
+}
+
+#box7 {
+    grid-column: 7 / 13;
+    grid-row: 36 / 43;
 }
 
 footer {
     grid-column: 1 / 13;
-    grid-row: 35 / 36;
+    grid-row: 44 / 49;
+}
+
+.paragraph {
+    text-align: center;
 }
