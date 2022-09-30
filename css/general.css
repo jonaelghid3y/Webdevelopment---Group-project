@@ -81,10 +81,9 @@ footer{
         height: 150px;
         grid-column-start: 1;
         grid-column-end: 13;
-        grid-row-start: 13;
-        grid-row-end: 14;
 }
-.fa {
+       
+.fa{
     padding: 20px;
     font-size: 20px;
     width: 10px;
