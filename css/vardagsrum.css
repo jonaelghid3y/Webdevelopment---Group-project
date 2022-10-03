@@ -1,41 +1,58 @@
 
-
-.main-content{
+.container1{
     display: grid;
     grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(12,1fr);
-    row-gap: 30px;
-}
-
-.content1{
-    display: grid;
-    border: 1px solid black;
-    grid-column: 2/12;
-    grid-row: 1/5;
-    min-height: 200px;
+    gap: 2%;
 
 }
-.content2{
-    display: grid;
+.bild1, .box1, .bild2, .box2, .bild3, .box3{
     border: 1px solid black;
-    grid-column: 1/5;
-    grid-row: 5/8;
-    min-height: 200px;
-    margin: 5px;
-}
-.content3{
-    display: grid;
-    grid-column: 9/13;
-    grid-row: 5/8;
-    border: 1px solid black;
-    min-height: 200px;
-    /*margin: 5px;*/
-}
-.content4{
-    display: grid;
-    border: 1px solid black;
-    min-height: 200px;
-    grid-column: 2/12;
-    grid-row: 8/12;
+    
+
 }
 
+
+.bild1{
+    display: grid;
+    grid-column: 2/8;
+    height: 400px;
+    width: 480px;
+    background-image: url(../img/vardagsrum-3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.box1{
+    display: grid;
+    grid-column: 8/12; 
+}
+.head{
+    font-family: cinzel;
+    color: grey
+}
+.bild2{
+    display: grid;
+    grid-column: 2/7;
+    height: 350px;
+    width: 350px;
+    background-image: url(../img/luxury-living-room1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.box2{
+    display: grid;
+    grid-column: 7/11;
+}
+.bild3{
+    display: grid;
+    grid-column: 2/7;
+    height: 400px;
+    width: 500px;
+    background-image: url(../img/vardags-rum1.png);
+    background-size: contain;
+}
+.box3{
+    display: grid;
+    grid-column: 7/11;
+}
