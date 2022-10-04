@@ -1,31 +1,53 @@
 
-#main
-{
 
-	border: 2px solid black;
-	min-height: 10px;
+img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
 
-}
+      }
 
- #main{ 
-    border-radius: 10px;
-    height: 400px;
-    
-    background-size: cover;
-    
-    justify-content: center;
-    align-items: center;
-    
-    
 
-        grid-column-start: 3;
-        grid-column-end: 11;
-        grid-row-start: 4;
-        grid-row-end: 6;
-    
-}
-#container2{
+
+#main{
+
+        height: 350px;
+        align-items: center;
+        justify-content: center;
         
+       
+      
+        grid-column-start: 2;
+        grid-column-end: 12;
+        grid-row-start: 3;
+        grid-row-end: 6;
+
+
+
+       
+
+}
+#box1{
+        
+        grid-column-start: 4;
+        grid-column-end: 11;
+        grid-row-start: 7;
+        grid-row-end: 8;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: larger;
+       
+
+}
+    
+    
+
+
+
+#container2 {
+
         height: 250px;
         grid-column-start: 1;
         grid-column-end: 5;
@@ -34,11 +56,12 @@
         display: flex;
         justify-content: center;
         align-items: center;
-       
-           
+
+
 }
-#container3{
-        
+
+#container3 {
+
         height: 250px;
         grid-column-start: 5;
         grid-column-end: 9;
@@ -48,13 +71,14 @@
         justify-content: center;
         align-items: center;
 
-       
-        
+
+
 }
-#container4{
-        
+
+#container4 {
+
         height: 250px;
-         grid-column-start: 9;
+        grid-column-start: 9;
         grid-column-end: 13;
         grid-row-start: 9;
         grid-row-end: 10;
@@ -62,68 +86,88 @@
         justify-content: center;
         align-items: center;
 
-   
-}
-
-
-
-#bild1{
-   
-    width: 90%;
-    height: 90%;
-    background-color: black; /* fallback color */
-    background-image: url("../img/badrumbox1.jpg");
-    background-position: center;
-    background-size: cover;
-    transition: 1s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-left: 20px;
-    
-  
-   
 
 }
-#bild2{
-   
-    width: 90%;
-    height: 90%;
-    background-image: url(../img/körförbox2.jpg);
-    background-size: cover;
-    background-position: center;
-   
-    transition: 1s;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#box2{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 10;
+        grid-row-end: 11;
+}
+#box3{
+        grid-column-start: 5;
+        grid-column-end: 9;
+        grid-row-start: 10;
+        grid-row-end: 11;
+}
+#box4{
+        grid-column-start: 9;
+        grid-column-end: 13;
+        grid-row-start: 10;
+        grid-row-end: 11;
+}
 
-    
+#bild1 {
+
+        width: 90%;
+        height: 90%;
+        background-color: black;
+        /* fallback color */
+        background-image: url("../img/badrumbox1.jpg");
+        background-position: center;
+        background-size: cover;
+        transition: 1s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 20px;
+
+
+
 
 }
-#bild3{
+
+#bild2 {
+
+        width: 90%;
+        height: 90%;
+        background-image: url(../img/körförbox2.jpg);
+        background-size: cover;
+        background-position: center;
+
+        transition: 1s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+}
+
+#bild3 {
 
         width: 90%;
         height: 90%;
         background-image: url(../img/vardagsrumbox3.jpg);
-         background-size: cover;
-         transition: 1s;
-         display: flex;
-         align-items: center;
+        background-size: cover;
+        transition: 1s;
+        display: flex;
+        align-items: center;
         justify-content: center;
-         
+
 
 }
+
 #container2:hover #bild1,
 #container3:hover #bild2,
 #container4:hover #bild3,
-#container2:focus #bild1 
-#container3:focus #bild2
-#container4:focus #bild3
-    {
-  transform: scale(1.05);
+#container2:focus #bild1 #container3:focus #bild2 #container4:focus #bild3 {
+        transform: scale(1.05);
 }
-#bild1::before,#bild2::before,#bild3::before {
+
+#bild1::before,
+#bild2::before,
+#bild3::before {
         content: "";
         display: none;
         height: 100%;
@@ -131,27 +175,29 @@
         position: absolute;
         top: 0;
         left: 0;
-        background-color: rgba(100, 102, 103, 0.75);
-        
-      }
-      
-      #container2:hover #bild1:before,
-      #container2:focus #bild1:before {
-        display: block;
-      }
-      #container3:hover #bild2:before,
-      #container3:focus #bild2:before {
-        display: block;
-      }
-      #container4:hover #bild3:before,
-      #container4:focus #bild3:before {
-        display: block;
-      }
+        background-color: rgba(100, 102, 103, 0.5);
 
-  
-.bildlänk{
+}
 
-        
+#container2:hover #bild1:before,
+#container2:focus #bild1:before {
+        display: block;
+}
+
+#container3:hover #bild2:before,
+#container3:focus #bild2:before {
+        display: block;
+}
+
+#container4:hover #bild3:before,
+#container4:focus #bild3:before {
+        display: block;
+}
+
+
+.bildlänk {
+
+
         color: white;
         font-family: "Cinzel";
         display: none;
@@ -159,32 +205,29 @@
         font-weight: bold;
         position: absolute;
         display: inline block;
-        
-       
+
+
 }
 
-        
-       
+
+
 
 #bild1:hover .bildlänk,
 #bild1:focus .bildlänk {
-  display: block;
+        display: block;
 }
+
 #bild2:hover .bildlänk,
 #bild2:focus .bildlänk {
-  display: block;
+        display: block;
 }
+
 #bild3:hover .bildlänk,
-#bild3:focus .bildlänk{
-  display: block;
+#bild3:focus .bildlänk {
+        display: block;
 }
-footer{
+
+footer {
         grid-row-start: 13;
         grid-row-end: 14;
 }
-  
-  
-
-
-
-
