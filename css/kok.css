@@ -44,26 +44,26 @@ body {
 /* ----------- BOXES ---------- */
  #box1{
     grid-column: 2 / 7;
-    background-image: url("../img/kök1.jpeg");   
+    background-image: url("../img/kok1.jpeg");   
 } 
 #box2{
     grid-column: 7 / 12;
     grid-row: 3 / 4;
-    background-image: url("../img/kök2.jpeg");  
+    background-image: url("../img/kok2.jpeg");  
 }
 #box3{
     grid-column: 2 / 12;
     min-height: 450px;
-    background-image: url("../img/kök3.jpeg");
+    background-image: url("../img/kok3.jpeg");
     background-position: center;
 }
 #box4{
     grid-column: 2 / 7;
-    background-image: url("../img/kök4.webp");
+    background-image: url("../img/kok4.webp");
 }
 #box5{
     grid-column: 7 / 12;
-    background-image: url("../img/kök5.jpeg");   
+    background-image: url("../img/kok5.jpeg");   
 }
 
 
