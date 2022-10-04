@@ -3,7 +3,8 @@ section {
 }
 
 #box3,
-#box2 {
+#box2,
+#box6 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -37,15 +38,11 @@ section {
 }
 
 #box5 {
-    grid-column: 2 / 12;
+    grid-column: 2 / 7;
     background-image: url(../img/bathroom-three.png);
 }
 
 #box6 {
-    grid-column: 2 / 6;
-}
-
-#box7 {
     grid-column: 7 / 12;
 }
 
@@ -54,18 +51,65 @@ section {
 }
 
 @media screen and (max-width: 960px) {
-    #box1, #box2, #box3, #box4, #box5, #box6, #box7 {
+
+    #box1,
+    #box4,
+    #box5 {
+        grid-row: 3 / 4;
+    }
+
+    #box1 {
+        grid-column: 2 / 6;
+    }
+
+    #box4 {
+        grid-column: 6 / 9;
+    }
+
+    #box5 {
+        grid-column: 9 / 12;
+    }
+
+    #box2,
+    #box3,
+    #box6 {
         grid-column: 2 / 12;
     }
-    
 }
 
+
 @media screen and (max-width: 768px) {
-    #box1, #box3, #box5 {
-        grid-column: 1 / 7;
+
+    #box1,
+    #box2,
+    #box3,
+    #box4,
+    #box5,
+    #box6 {
+        grid-column: 2 / 12;
     }
-    #box2, #box4 {
-        grid-column: 7 / 13;
+
+    #box1 {
+        grid-row: 3 / 4;
     }
-    
+
+    #box2 {
+        grid-row: 4 / 5;
+    }
+
+    #box4 {
+        grid-row: 5 / 6;
+    }
+
+    #box3 {
+        grid-row: 6 / 7;
+    }
+
+    #box5 {
+        grid-row: 7 / 8;
+    }
+
+    #box6 {
+        grid-row: 8 / 9;
+    }
 }
