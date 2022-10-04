@@ -147,7 +147,6 @@ h3{
  }
 
  @media only screen and (max-width: 768px){
-
 #box1{
     grid-column: 1 / 13;
     grid-row: 3 / 4;
@@ -184,8 +183,20 @@ h3{
 
 }
 
-nav ul{
-    flex-wrap: wrap;
+header{
+    font-size: 30px;
+}
+nav{
+    font-size: 15px;
 }
 
+}
+
+@media only screen and (max-width: 432px){
+    header{
+        font-size: 20px;
+    }
+    nav{
+        font-size: 10px;
+    }
 }
