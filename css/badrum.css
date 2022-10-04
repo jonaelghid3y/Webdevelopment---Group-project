@@ -2,42 +2,45 @@ section {
     border-radius: 10px;
 }
 
+#box4,
+#box2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#box1,
+#box3,
+#box5 {
+    background-size: cover;
+}
+
 #box1 {
     grid-column: 1 / 7;
     grid-row: 3 / 13;
     background-image: url(../img/bathroom-one.jpeg);
-    background-size: cover;
 }
 
 #box2 {
     grid-column: 7 / 13;
     grid-row: 3 / 13;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
 }
 
 #box4 {
-    grid-column: 1 / 8 ;
+    grid-column: 1 / 8;
     grid-row: 14 / 25;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 #box3 {
     grid-column: 8 / 13;
     grid-row: 14 / 25;
     background-image: url(../img/bathroom-two.jpeg);
-    background-size: cover;
 }
 
 #box5 {
     grid-column: 1 / 13;
     grid-row: 26 / 35;
     background-image: url(../img/bathroom-three.png);
-    background-size: cover;
 }
 
 #box6 {
