@@ -10,13 +10,13 @@
 
 }
 .bild1{
-    border radius: 10px;
     display: grid;
     grid-column: 2/8;
     grid-row: 3/7;
     background-image: url(../img/vardagsrum-3.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 .box1{
     border: 1px solid black;
@@ -24,6 +24,11 @@
     grid-column: 8/12;
     grid-row: 3/7;
     
+}
+.head1, .head2, .head3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .bild2{
     border radius: 10px;
@@ -33,6 +38,7 @@
     background-image: url(../img/vardags-rum1.png);
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
     
 
 }
@@ -50,6 +56,7 @@
     background-image: url(../img/minimalistic.jpg);
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 .box3{
@@ -61,3 +68,10 @@
 .head1, .head2, .head3{
     font-family: 'Cinzel';
 }
+@media screen and (max-width: 960px){
+    .bild1{grid-column: 2/4; grid-row: 3/10;}
+    .bild2{grid-column: 4/6; grid-row: 3/7;}
+    .bild3{grid-column: 6/; grid-row: 3/7;}
+   
+}
+
