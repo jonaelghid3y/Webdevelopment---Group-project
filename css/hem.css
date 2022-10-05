@@ -1,5 +1,7 @@
+
 #hem{
-        font-weight: bold;
+
+        text-decoration: underline;
 
 }
 img{
@@ -45,7 +47,7 @@ img{
 
         height: 250px;
         grid-column: 1/5;
-        grid-row: 9/10;
+        grid-row: 12/13;
 
 }
 
@@ -53,7 +55,7 @@ img{
 
         height: 250px;
         grid-column: 5/9;
-        grid-row: 9/10;
+        grid-row: 12/13;
 
 }
 
@@ -61,23 +63,23 @@ img{
 
         height: 250px;
         grid-column: 9/13;
-        grid-row: 9/10;
+        grid-row: 12/13;
 }
 
 #box2 {
         grid-column: 1/5;
-        grid-row: 10/11;
+        grid-row: 13/14;
 }
 
 #box3 {
         grid-column: 5/9;
-        grid-row: 10/11;
+        grid-row: 13/14;
 
 }
 
 #box4 {
         grid-column: 9/13;
-        grid-row: 10/11;
+        grid-row: 13/14;
 }
 
 #bild1 {
@@ -179,10 +181,13 @@ img{
 #bild3:focus .bildlänk {
         display: block;
 }
+.fa{
+        font-size: 16px; 
+}
 
 footer {
-        grid-row-start: 13;
-        grid-row-end: 14;
+        grid-row-start: 17;
+        grid-row-end: 18;
 }
 
 /* ------------------------------------------------------------IPAD---------------------------------------------------------------------- */
@@ -219,36 +224,36 @@ footer {
 
                 height: 250px;
                 grid-column: 2/8;
-                grid-row: 9/10;
+                grid-row: 10/12;
         }
 
         #container3 {
 
                 height: 250px;
                 grid-column: 2/8;
-                grid-row: 10/11;
+                grid-row: 12/13;
         }
 
         #container4 {
 
                 height: 250px;
                 grid-column: 2/8;
-                grid-row: 11/12;
+                grid-row: 13/14;
         }
 
         #box2 {
                 grid-column: 8/12;
-                grid-row: 9/10;
+                grid-row: 10/12;
         }
 
         #box3 {
                 grid-column: 8/12;
-                grid-row: 10/11;
+                grid-row: 12/13;
         }
 
         #box4 {
                 grid-column: 8/12;
-                grid-row: 11/12;
+                grid-row: 13/14;
         }
 
 }
@@ -315,7 +320,7 @@ footer {
         }
 
         footer {
-                grid-row: 15/16
+                grid-row: 18/19
         }
 
 }
