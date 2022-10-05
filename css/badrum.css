@@ -50,6 +50,10 @@ section {
     text-align: center;
 }
 
+#active {
+    text-decoration: underline;
+}
+
 @media screen and (max-width: 960px) {
 
     #box1,
