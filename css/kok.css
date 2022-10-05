@@ -41,6 +41,11 @@ body {
         font-size: 2rem;
     }
 
+    #kok{
+        text-decoration: underline;
+            font-weight: bold;
+    }
+
 /* ----------- BOXES ---------- */
  #box1{
     grid-column: 2 / 7;
