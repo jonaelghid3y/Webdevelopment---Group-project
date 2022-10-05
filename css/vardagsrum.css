@@ -1,36 +1,28 @@
 
-
-.container1{
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    column-gap: 2%;
-    row-gap: 20px;
-    margin: 0 auto;
-    
-
-}
 .bild1{
-    display: grid;
+    /*display: grid;*/
     grid-column: 2/8;
     grid-row: 3/7;
+    height: 400px;
     background-image: url(../img/vardagsrum-3.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
 }
 .box1{
-    display: grid;
+    /*display: grid;*/
     grid-column: 8/12;
     grid-row: 3/7;
     
 }
-.head1, .head2, .head3{
+.head1, .head2, .head3, .text1, .text2, .text3{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .bild2{
     border radius: 10px;
+    height: 400px;
     display: grid;
     grid-column: 2/8;
     grid-row: 7/10;
@@ -42,7 +34,7 @@
 
 }
 .box2{
-    display: grid;
+    /*display: grid;*/
     grid-column: 8/12;
     grid-row: 7/10;
 }
@@ -55,10 +47,11 @@
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    height: 400px;
 }
 
 .box3{
-    display: grid;
+    /*display: grid;*/
     grid-column: 8/12;
     grid-row: 10/13;
 }
@@ -66,19 +59,19 @@
     font-family: 'Cinzel';
 }
 @media screen and (max-width: 960px){
-    .bild1{grid-column: 2/6; grid-row: 3/7; height: 300px; width: 200px;}
+    .bild1{grid-column: 2/6;height: 300px; width: 200px;}
     .bild2{grid-column: 6/10; grid-row: 3/7; height: 300px; width: 200px;} 
-    .bild3{grid-column: 10/12; grid-row: 3/7;height: 300px; width: 200px;}
-    .box1{grid-column: 2/6; grid-row: 7/10;}
-    .box2{grid-column: 6/10; grid-row: 7/10;}
-    .box3{grid-column: 10/13; grid-row: 7/10;}
+    .bild3{grid-column: 10/12; grid-row: 3/7; height: 300px; width: 200px;}
+    .box1{grid-column: 2/6; grid-row: 7/10; height: 600px;}
+    .box2{grid-column: 6/10; grid-row: 7/10; height: 600px;}
+    .box3{grid-column: 10/13; grid-row: 7/10; height: 600px; }
    
 }
 @media screen and (max-width: 768px){
-    .bild1{grid-column:2/12; grid-row: 3/7; height: 400px; width: 500px;}
-    .bild2{grid-column:2/12; grid-row: 10/13; height: 400px; width: 500px;}
-    .bild3{grid-column:2/12; grid-row: 16/19; height: 400px; width: 500px;}
-    .box1{grid-column:2/12; grid-row: 7/10;}
-    .box2{grid-column:2/12; grid-row: 13/16;}
-    .box3{grid-column:2/12; grid-row: 19/22;}
+    .bild1{grid-column:2/12; grid-row: 3/7; height: 300px; width: 500px;}
+    .bild2{grid-column:2/12; grid-row: 10/13; height: 300px; width: 500px;}
+    .bild3{grid-column:2/12; grid-row: 16/19; height: 300px; width: 500px;}
+    .box1{grid-column:2/12; grid-row: 7/10; height: 300px; }
+    .box2{grid-column:2/12; grid-row: 13/16; height: 300px;}
+    .box3{grid-column:2/12; grid-row: 19/22; height: 300px;}
 }
